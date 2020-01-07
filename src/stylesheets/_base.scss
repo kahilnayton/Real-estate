@@ -1,0 +1,30 @@
+$color-primary: rgb(27, 148, 255);
+$color-primary-dark: rgb(45, 45, 230);
+
+$color-secondary: rgb(0, 8, 97);
+
+$color-grey-light1: rgb(235, 235, 235);
+$color-grey-light2: rgb(216, 216, 216);
+
+
+$color-grey-dark1: grey;
+$color-grey-dark2: grey;
+
+html {
+  box-sizing: border-box;
+  font-family: 62.5%;
+}
+
+body {
+  font-family: 'Gilroy-Regular';
+  color: $color-grey-dark1;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: repeat(8, 1fr);
+}
+
