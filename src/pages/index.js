@@ -20,33 +20,33 @@ const IndexPage = () => (
       <div className="realtors">Top 3!</div>
       <section className="features">
         <div className="feature">
-          <Svg />
-          <h2 className="heading-4">Worlds best homes</h2>
+          <Svg className="feature__icon"/>
+          <h2 className="heading-4 heading-4--dark">Worlds best homes</h2>
           <p className="feature__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus!</p>
         </div>
         <div className="feature">
-          <Svg2 />
-          <h2 className="heading-4">Only the best properties</h2>
+          <Svg2 className="feature__icon"/>
+          <h2 className="heading-4 heading-4--dark">Only the best properties</h2>
           <p className="feature__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus!</p>
         </div>
         <div className="feature">
-          <Svg3 />
-          <h2 className="heading-4">This year is key!</h2>
+          <Svg3 className="feature__icon"/>
+          <h2 className="heading-4 heading-4--dark">This year is key!</h2>
           <p className="feature__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus!</p>
         </div>
         <div className="feature">
-          <Svg4 />
-          <h2 className="heading-4">Top 1 percent realtors</h2>
+          <Svg4 className="feature__icon"/>
+          <h2 className="heading-4 heading-4--dark">Top 1 percent realtors</h2>
           <p className="feature__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus!</p>
         </div>
         <div className="feature">
-          <Svg5 />
-          <h2 className="heading-4">Offering secure payments</h2>
+          <Svg5 className="feature__icon"/>
+          <h2 className="heading-4 heading-4--dark">Offering secure payments</h2>
           <p className="feature__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus!</p>
         </div>
         <div className="feature">
-          <Svg6 />
-          <h2 className="heading-4">Join us now</h2>
+          <Svg6 className="feature__icon"/>
+          <h2 className="heading-4 heading-4--dark">Join us now</h2>
           <p className="feature__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus!</p>
         </div>
       </section>
