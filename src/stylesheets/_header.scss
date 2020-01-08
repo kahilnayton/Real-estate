@@ -1,3 +1,4 @@
 .header {
   background-color: $color-grey-dark1;
+  grid-column: full-start col-end 6; // ends after the 6th column
 }

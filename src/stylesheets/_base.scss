@@ -10,13 +10,24 @@ $color-grey-light2: rgb(216, 216, 216);
 $color-grey-dark1: grey;
 $color-grey-dark2: grey;
 
+$font-primary: 'Gilroy-Regular', sans-serif;
+$font-display: 'Gilroy-light', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 html {
   box-sizing: border-box;
   font-family: 62.5%;
 }
 
 body {
-  font-family: 'Gilroy-Regular';
+  font-family: $font-primary;
   color: $color-grey-dark1;
   font-weight: 300;
   line-height: 1.6;
@@ -25,6 +36,11 @@ body {
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+  // & > * { // The container and all the direct children
+  //   padding: 40px;
+  //   font-size: 1rem;
+  // }
 }
 
