@@ -10,7 +10,11 @@ import Svg2 from "../Icons/BigInvoice"
 import Svg3 from "../Icons/BigTelephone"
 import Svg4 from "../Icons/BigCloud"
 import Svg5 from "../Icons/Funds"
-import Svg6 from "../Icons/QualityBadge"
+import Svg6 from "../Icons/CurriculumWithPicture"
+import Svg7 from "../Icons/Funds"
+import Svg8 from "../Icons/ListWithText"
+import Svg9 from "../Icons/WebHome"
+import Svg10 from "../Icons/HeadphonesWithThinMic"
 
 import image1 from "../images/image1.jpeg"
 import image2 from "../images/image2.jpeg"
@@ -28,6 +32,7 @@ const IndexPage = () => (
       <div className="sidebar">sidebar</div>
       <div className="header">Header</div>
       <div className="realtors">Top 3!</div>
+
       <section className="features">
         <div className="feature">
           <Svg className="feature__icon" />
@@ -86,7 +91,6 @@ const IndexPage = () => (
         <img src={image1} alt="image 1" className="story__img--1" />
         <img src={image2} alt="image 1" className="story__img--2" />
       </div>
-
       <div className="story__content">
         <h3 className="heading-3 mb-sm">Happy Customers</h3>
         <h2 className="heading-2 heading-2--dark mb-md">
@@ -100,60 +104,136 @@ const IndexPage = () => (
         <button className="btn">Find your own home</button>
       </div>
 
+      // home 1
       <section className="homes">
         <div className="home">
           <img src={image5} alt="home 1" className="home__img" />
-          <Svg2 className="home__like" />
+          <Svg5 className="home__like" />
           <h5 className="home__name">It's a stella house</h5>
+
           <div className="home__location">
-            <Svg3 className="home__like" />
+            <Svg6 className="home__location--svg svg" />
             <p>USA</p>
           </div>
         </div>
+        <div className="home__rooms">
+          <Svg7 className="home__rooms--svg svg" />
+          <p>5 rooms</p>
+        </div>
+        <div className="home__area">
+          <Svg8 className="home__rooms--svg svg" />
+        </div>
+        <p>
+          459 m<sup>2</sup>
+        </p>
+        <div className="home__price">
+          <Svg9 className="home__rooms--svg svg" />
+          <p>50$</p>
+        </div>
+        <button className="btn home__btn">Contact realtor</button>
+
+        // home 2
         <div className="home">
           <img src={image6} alt="home 1" className="home__img" />
-          <Svg2 className="home__like" />
-          <h5 className="home__name">It's a stella house</h5>
+          <Svg5 className="home__like" />
+          <h5 className="home__name">Cozy country house</h5>
           <div className="home__location">
-            <Svg3 className="home__like" />
-            <p>
-              459 m<sup>2</sup>
-            </p>
+            <Svg6 className="home__like" />
+            <p>Canada</p>
           </div>
         </div>
+        <div className="home__rooms">
+          <Svg7 className="home__rooms--svg svg" />
+          <p>3 rooms</p>
+        </div>
+        <div className="home__area">
+          <Svg8 className="home__rooms--svg svg" />
+        </div>
+        <p>
+          559 m<sup>2</sup>
+        </p>
+        <div className="home__price">
+          <Svg9 className="home__rooms--svg svg" />
+          <p>50, 000$</p>
+        </div>
+        <button className="btn home__btn">Contact realtor</button>
+
+        // home 3
         <div className="home">
           <img src={image7} alt="home 1" className="home__img" />
-          <Svg2 className="home__like" />
-          <h5 className="home__name">It's a stella house</h5>
+          <Svg5 className="home__like" />
+          <h5 className="home__name">Villa with great view</h5>
           <div className="home__location">
-            <Svg3 className="home__like" />
-            <p>USA</p>
+            <Svg6 className="home__like" />
+            <p>Spain</p>
           </div>
         </div>
+        <div className="home__rooms">
+          <Svg7 className="home__rooms--svg svg" />
+          <p>7 rooms</p>
+        </div>
+        <div className="home__area">
+          <Svg8 className="home__rooms--svg svg" />
+        </div>
+        <p>
+          1159 m<sup>2</sup>
+        </p>
+        <div className="home__price">
+          <Svg9 className="home__rooms--svg svg" />
+          <p>1,500,000$</p>
+        </div>
+        <button className="btn home__btn">Contact realtor</button>
+
+        // home 4
         <div className="home">
           <img src={image8} alt="home 1" className="home__img" />
-          <Svg2 className="home__like" />
-          <h5 className="home__name">It's a stella house</h5>
+          <Svg5 className="home__like" />
+          <h5 className="home__name">Unit in Brooklyn</h5>
           <div className="home__location">
-            <Svg3 className="home__like" />
+            <Svg6 className="home__like" />
             <p>USA</p>
           </div>
         </div>
+        <div className="home__rooms">
+          <Svg7 className="home__rooms--svg svg" />
+          <p>2 rooms</p>
+        </div>
+        <div className="home__area">
+          <Svg8 className="home__rooms--svg svg" />
+        </div>
+        <p>
+          159 m<sup>2</sup>
+        </p>
+        <div className="home__price">
+          <Svg9 className="home__rooms--svg svg" />
+          <p>50,000$</p>
+        </div>
+        <button className="btn home__btn">Contact realtor</button>
+        // home 5
         <div className="home">
           <img src={image9} alt="home 1" className="home__img" />
-          <Svg2 className="home__like" />
-          <h5 className="home__name">It's a stella house</h5>
+          <Svg5 className="home__like" />
+          <h5 className="home__name">A frame house</h5>
           <div className="home__location">
-            <Svg3 className="home__like" />
-            <p>USA</p>
+            <Svg6 className="home__like" />
+            <p>Australia</p>
           </div>
         </div>
-
-        <div className="home">Home card 2</div>
-        <div className="home">Home card 3</div>
-        <div className="home">Home card 4</div>
-        <div className="home">Home card 5</div>
-        <div className="home">Home card 6</div>
+        <div className="home__rooms">
+          <Svg7 className="home__rooms--svg svg" />
+          <p>3 rooms</p>
+        </div>
+        <div className="home__area">
+          <Svg8 className="home__rooms--svg svg" />
+        </div>
+        <p>
+          759 m<sup>2</sup>
+        </p>
+        <div className="home__price">
+          <Svg9 className="home__rooms--svg svg" />
+          <p>$600,000</p>
+        </div>
+        <button className="btn home__btn">Contact realtor</button>
       </section>
       <section className="gallery">Gallery</section>
       <footer className="footer">Footer</footer>
